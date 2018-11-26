@@ -1,14 +1,14 @@
 namespace shortest.route
 {
-    internal class Node
+    internal class Location
     {
         internal int x, y, dist;
-        public Node(int x, int y)
+        public Location(int x, int y)
         {
             this.x = x;
             this.y = y;
         }
-        public Node(int x, int y, int dist)
+        public Location(int x, int y, int dist)
         {
             this.x = x;
             this.y = y;
